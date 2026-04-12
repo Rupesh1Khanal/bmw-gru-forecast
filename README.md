@@ -10,20 +10,18 @@ Implements leak-free evaluation and compares against a naive persistence baselin
 
 ![Prediction vs Actual](artifacts/test_actual_vs_pred.png)
 
-<a href="https://github.com/Rupesh1Khanal/bmw-gru-forecast/blob/main/LICENSE">
-  <img alt="License" src="https://img.shields.io/github/license/Rupesh1Khanal/bmw-gru-forecast">
-</a>
-
 <p align="left">
+  <a href="https://github.com/Rupesh1Khanal/bmw-gru-forecast/blob/main/LICENSE">
+    <img alt="License" src="https://img.shields.io/github/license/Rupesh1Khanal/bmw-gru-forecast">
+  </a>
   <a href="https://github.com/Rupesh1Khanal/bmw-gru-forecast/stargazers">
     <img alt="GitHub stars" src="https://img.shields.io/github/stars/Rupesh1Khanal/bmw-gru-forecast?style=social">
   </a>
   <a href="https://github.com/Rupesh1Khanal/bmw-gru-forecast/issues">
     <img alt="Issues" src="https://img.shields.io/github/issues/Rupesh1Khanal/bmw-gru-forecast">
   </a>
-  <img alt="Python" src="https://img.shields.io/badge/Python-3.10+-blue">
+  <img alt="Python" src="https://img.shields.io/badge/Python-3.10%2B-blue">
   <img alt="TensorFlow" src="https://img.shields.io/badge/TensorFlow-2.10%2B-orange">
-  <img alt="License" src="https://img.shields.io/badge/License-MIT-green">
   <img alt="Last commit" src="https://img.shields.io/github/last-commit/Rupesh1Khanal/bmw-gru-forecast">
 </p>
 
