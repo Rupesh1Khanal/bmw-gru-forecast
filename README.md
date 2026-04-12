@@ -1,9 +1,15 @@
 # GRU Baseline for Next-Day BMW.DE Price Forecast (Delta Target)
 ## TL;DR
+
+GRU-based time-series model predicting next-day BMW stock price using delta forecasting.  
+Implements leak-free evaluation and compares against a naive persistence baseline.  
+
+**Test RMSE:** 1.93 EUR | **R²:** 0.9567  
+
+> ⚠️ For research purposes only, not financial advice.
+
 ![Prediction vs Actual](artifacts/test_actual_vs_pred.png)
-GRU-based time-series model predicting next-day BMW stock price using delta forecasting.
-Outperforms naive persistence baseline with leak-free evaluation.
-Test RMSE: 1.93 EUR | R²: 0.9567
+
 <a href="https://github.com/Rupesh1Khanal/bmw-gru-forecast/blob/main/LICENSE">
   <img alt="License" src="https://img.shields.io/github/license/Rupesh1Khanal/bmw-gru-forecast">
 </a>
