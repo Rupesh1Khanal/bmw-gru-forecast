@@ -154,7 +154,7 @@ For **both** VAL and TEST:
 
 ---
 
-## 📊 Results
+## 📊 Results & Evaluation
 
 | Split | RMSE (Model) | RMSE (Naive) | Δ vs Naive | R² |
 |------:|--------------:|-------------:|-----------:|---:|
@@ -165,6 +165,24 @@ For **both** VAL and TEST:
 These results are derived from the **final trained GRU (96 units, dropout=0.1)**.  
 See `artifacts/metrics.json` for exact metrics and plots.
 
+### 📌 Interpretation
+
+The model slightly outperforms the naive persistence baseline, but the improvement is marginal (0.03% on the test set).
+
+This suggests that:
+
+- Daily stock price movements are highly noisy and difficult to predict
+- A simple persistence model already provides a strong baseline
+- The GRU model captures some signal, but gains over the baseline remain limited
+
+This highlights the importance of strong baselines and realistic expectations in financial time-series forecasting.
+
+## ⚠️ Limitations
+
+- The model shows only marginal improvement over a naive baseline
+- Financial time series are highly noisy and influenced by external factors not included in the model
+- Only historical price-based features are used (no macroeconomic or news data)
+- Model performance may not generalize across different market regimes
 
 ### Reproducibility
 - Fixed seeds for Python/NumPy/TensorFlow (42)  
